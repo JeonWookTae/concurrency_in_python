@@ -29,6 +29,4 @@ class Philosopher(threading.Thread):
                 self.leftFork.release()
                 print("philosopher {} has released the left fork".format(threading.current_thread()))
 
-                
-if __name__ == "__mian__":
-    acquire()
+
