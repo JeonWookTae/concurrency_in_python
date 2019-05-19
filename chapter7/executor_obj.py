@@ -23,6 +23,5 @@ def main():
         task4 = executor.submit(someTask, (4))
 
 
-
 if __name__ == "__main__":
     main()
