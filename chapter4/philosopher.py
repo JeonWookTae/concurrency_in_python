@@ -30,3 +30,5 @@ class Philosopher(threading.Thread):
                 print("philosopher {} has released the left fork".format(threading.current_thread()))
 
 
+if __name__ == "__main__":
+    Philosopher(threading.Lock(), threading.Lock()).run()
